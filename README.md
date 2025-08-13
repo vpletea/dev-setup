@@ -1,4 +1,4 @@
-# Cross-platform developer setup
+# Holistic cross-platform developer setup
 
   ## Chezmoi – Manage your dotfiles securely and effortlessly 
   1. What is Chezmoi?
