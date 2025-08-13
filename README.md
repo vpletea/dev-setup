@@ -28,7 +28,7 @@
   ## Mise – The Front-end for Your Dev Environment
   
   1. What Is Mise?
-     - Mise is a cross-platform command-line tool version manager that elegantly replaces tools like asdf, nvm, pyenv, rbenv, and more. It also handles environment variable sets and task execution, positioning itself as a unified interface for managing your entirw dev setup.
+     - Mise is a cross-platform command-line tool version manager that elegantly replaces tools like asdf, nvm, pyenv, rbenv, and more. It also handles environment variable sets and task execution.
 
   2. Core Pillars:
       - Dev Tools Management
