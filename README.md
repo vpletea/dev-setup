@@ -2,19 +2,15 @@
 
   ## Chezmoi – Manage Your Dotfiles Securely and Effortlessly 
   1. What is Chezmoi? Chezmoi is a cross-platform command-line tool that helps you manage your personal configuration files (“dotfiles”) across multiple machines. It ensures consistency, security, and ease of updates.
-  2. Key Features
+  2. Key Features:
       
       Cross-platform: Works on Linux, macOS, and Windows.
-      
       Version control friendly: Integrates seamlessly with Git.
-      
       Encryption support: Securely store sensitive data (like API keys) using GPG, age, or other encryption tools.
-      
       Templating: Use variables and templates to adapt configs to different machines.
-      
       Idempotent apply: Running chezmoi apply brings any machine into the desired state without overwriting local changes unexpectedly.
       
-  3. How it Works
+  3. How it Works:
       
       Initialize chezmoi in your home directory.
       
@@ -24,15 +20,13 @@
       
       Apply on any machine to replicate your setup (chezmoi apply).
       
-  4. Benefits
+  4. Benefits:
       
       Consistency across all devices.
-      
       Safer than just copying files—secrets stay encrypted.
-      
       Automation reduces setup time for new machines.
       
-  5. Example Use Case
+  5. How i use this:
       
       “I keep my .zshrc, .gitconfig, and personal scripts in chezmoi, store them in a private Git repo, and with one command, I can set up a brand-new laptop exactly like my main workstation.”
 
