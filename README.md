@@ -1,6 +1,6 @@
 # Cross-platform developer setup
 
-  ## Chezmoi – Manage Your Dotfiles Securely and Effortlessly 
+  ## Chezmoi – Manage your dotfiles securely and effortlessly 
   1. What is Chezmoi?
       - Chezmoi is a cross-platform command-line tool that helps you manage your personal configuration files (“dotfiles”) across multiple machines. It ensures consistency, security, and ease of updates.
   3. Key Features:    
@@ -25,7 +25,7 @@
       
       I keep my .zshrc, .gitconfig, and personal scripts in chezmoi, store them in a private Git repo, and with one command, I can set up a brand-new laptop exactly like my main workstation.
 
-  ## Mise – The Front-end for Your Dev Environment
+  ## Mise – Easy setup your dev environment
   
   1. What Is Mise?
      - Mise is a cross-platform command-line tool version manager that elegantly replaces tools like asdf, nvm, pyenv, rbenv, and more. It also handles environment variable sets and task execution.
