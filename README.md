@@ -43,4 +43,7 @@
   3. Use Case Summary
         
       - In my dev work, I use mise to define my toolchain per project. One command sets up Node, Python, and environment variables automatically. No more manual installs or context-switching headaches.
-      
+
+## Useful links
+  - https://www.chezmoi.io/quick-start/
+  - https://mise.jdx.dev/getting-started.html
