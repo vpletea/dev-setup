@@ -1,4 +1,4 @@
-# dev-setup
+# Cross-platform developer setup
 
   ## Chezmoi – Manage Your Dotfiles Securely and Effortlessly 
   1. What is Chezmoi? Chezmoi is a cross-platform command-line tool that helps you manage your personal configuration files (“dotfiles”) across multiple machines. It ensures consistency, security, and ease of updates.
