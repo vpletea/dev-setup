@@ -1,0 +1,7 @@
+[tools]
+"terraform" = "1.12.1"
+"kubectx" = "latest"
+"kubectl" = "latest"
+"ansible" = "latest"
+"python" = "latest"
+"pipx" = "latest"
