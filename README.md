@@ -3,27 +3,27 @@
   ## Chezmoi – Manage your dotfiles securely and effortlessly 
   1. What is Chezmoi?
       - Chezmoi is a cross-platform command-line tool that helps you manage your personal configuration files (“dotfiles”) across multiple machines. It ensures consistency, security, and ease of updates.
-  3. Key Features:    
+  2. Key Features:    
       - Cross-platform: Works on Linux, macOS, and Windows.
       - Version control friendly: Integrates seamlessly with Git.
       - Encryption support: Securely store sensitive data (like API keys) using GPG, age, or other encryption tools.
       - Templating: Use variables and templates to adapt configs to different machines.
       - Idempotency: Running chezmoi apply brings any machine into the desired state without overwriting local changes unexpectedly.
   
-  4. How it Works:
+  3. How it Works:
       - Initialize chezmoi in your home directory.
       - Add your dotfiles to chezmoi’s source state (chezmoi add ~/.bashrc).
       - Commit the source state to Git (optionally encrypting secrets).
       - Apply on any machine to replicate your setup (chezmoi apply).
       
-  5. Benefits:
+  4. Benefits:
       - Consistency across all devices.
       - Safer than just copying files—secrets stay encrypted.
       - Automation reduces setup time for new machines.
       
-  6. How i use this:
+  5. Use Case Summary:
       
-      I keep my .zshrc, .gitconfig, and personal scripts in chezmoi, store them in a private Git repo, and with one command, I can set up a brand-new laptop exactly like my main workstation.
+      - I keep my .zshrc, .gitconfig, and personal scripts in chezmoi, store them in a private Git repo, and with one command, I can set up a brand-new laptop exactly like my main workstation.
 
   ## Mise – Easy setup your dev environment
   
@@ -40,7 +40,7 @@
       - Task Running Capability
         - Enables structured task execution with features similar to make or npm scripts—context-aware and integrated into the mise ecosystem.
 
-  3. Use Case Summary
+  3. Use Case Summary:
         
       - In my dev work, I use mise to define my toolchain per project. One command sets up Node, Python, and environment variables automatically. No more manual installs or context-switching headaches.
 ## Howto
