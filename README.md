@@ -44,7 +44,7 @@
         
       - In my dev work, I use mise to define my toolchain per project. One command sets up Node, Python, and environment variables automatically. No more manual installs or context-switching headaches.
 ## Howto:
-  - Install chezmoi on your OS of choice
+  - Install chezmoi on your OS of choice ( Linux, MacOS, Windows )
   - Run ```chezmoi init https://github.com/vpletea/dev-setup.git```
 
 ## Useful links
