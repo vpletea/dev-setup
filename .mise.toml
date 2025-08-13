@@ -3,5 +3,5 @@
 "kubectx" = "latest"
 "kubectl" = "latest"
 "ansible" = "latest"
-"python" = "latest"
-"pipx" = "latest"
+"python" = "3.12.6"
+"pipx" = "1.7.1"
